@@ -1,0 +1,211 @@
+main {
+    .item1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 150px;
+      h5 {
+        font-size: 16px;
+        color: rgb(70, 69, 68);
+      }
+      .divider2 {
+        width: 90px;
+        margin-top: 20px;
+        height: 2px;
+        color: gray;
+        border: 1px solid rgb(181, 175, 175);
+      }
+    }
+  
+    h3 {
+      font-size: 60px;
+      text-align: center;
+      margin-top: 50px;
+      font-family: $base_font;
+  
+      @media (max-width: 768px) {
+        width: 410px;
+        font-size: 40px;
+      }
+    }
+  
+    .item2 {
+      @media (max-width: 768px) {
+        display: none;
+      }
+  
+      display: flex;
+      flex-direction: row;
+      margin-top: 100px;
+      max-width: 1500px;
+  
+      margin: 0 auto;
+  
+      .col-xl-2 {
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        
+  
+        .item3 {
+          h4 {
+            word-spacing: 50px;
+            font-size: 30px;
+          }
+        }
+  
+        .divider3 {
+          width: 250px;
+          margin-top: 20px;
+  
+          height: 2px;
+          color: rgb(195, 188, 188);
+          border: 1px solid rgb(181, 175, 175);
+        }
+  
+        @mixin item5 {
+          margin-top: 20px;
+          display: flex;
+          flex-direction: row;
+  
+          gap: 20px;
+  
+          h5 {
+            font-size: 15px;
+          }
+        }
+  
+        .item5 {
+          @include item5;
+          margin-top: 20px;
+        }
+  
+        .item6 {
+          @extend .item3;
+          margin-top: 50px;
+        }
+  
+        .item7 {
+          @extend .item6;
+        }
+  
+        .item8 {
+          border: 1px solid black;
+          background-image: url(https://images.unsplash.com/photo-1606825526709-6c6e7497ebac?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BsYXNoJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D);
+          margin-top: 40px;
+          height: 500px;
+          display: flex;
+          flex-direction: column;
+          gap: 110px;
+          padding-left: 20px;
+         
+          
+          h4{
+              color: white;
+              margin-top: 40px;
+     
+  
+          }
+  
+          .item9{
+              display: flex;
+              flex-direction: column;
+              padding-right: 60px;
+              justify-content: start;
+              gap: 17px;
+              
+              h3{
+                  color: white;
+                  font-size: 40px;
+                  text-align: start;
+              }
+              p{
+                  color: white;
+              }
+              button{
+                  width: 100px;
+                  border: none;
+                  height: 40px;
+                  background-color: white;
+              }
+  
+          }
+  
+  
+        }
+      }
+  
+      .col-xl-10{
+          padding-left: 70px;
+          display: flex;
+          flex-direction: row;
+          gap: 40px;
+          margin-top: 100px;
+          flex-wrap: wrap;
+         
+          .container1{
+              
+  
+  
+            display: flex;
+            flex-direction: column;
+            
+                  border: 1px black;
+                  width: 350px;
+                  height: 560px;
+                  overflow: hidden;
+  
+                  .imgb{
+                     
+                      box-sizing: border-box;
+                      overflow: hidden;
+  
+                      .img4{
+                         
+                         
+                          object-fit: cover;
+                         
+      
+      
+                          transition: transform 0.4s ease;
+                          overflow: hidden;
+                          
+                      }
+                      .img4:hover{
+                          transform: scale(1.2);
+          
+                      }
+                  }
+      
+                  .item10{
+  
+                      h4{
+                          font-family: $base_font;
+                          font-size: larger;
+                      }
+  
+  
+                      display: flex;
+                      flex-direction: column;
+                      gap: 12px;
+                      text-align: start;
+                      margin-top: 15px;
+                      padding: 0px 8px 0px 50px;
+  
+                     
+                  
+                     
+                      
+                     
+                  }
+              
+             
+      
+              
+  
+  
+          }
+      }
+    }}
+    
