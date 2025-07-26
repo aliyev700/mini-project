@@ -1,0 +1,51 @@
+.blog-page{
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+
+
+
+  .blog-card {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+
+    justify-content: center;
+    justify-content: space-between;
+
+    .card1 {
+      width: 600px;
+      height: 600px;
+      margin-top: 60px;
+      padding-left: 30px;
+
+      h3 {
+        margin-right: 70px;
+      }
+
+      p {
+        margin-top: 15px;
+        margin-left: 10px;
+        font-size: 15px;
+      }
+    }
+
+    .img1 {
+      box-sizing: border-box;
+      overflow: hidden;
+
+      img:hover {
+        transition: transform 1.1s ease;
+        transform: scale(1.2);
+      }
+    }
+  }
+
+ 
+
+ 
+
+  
+}
