@@ -370,17 +370,17 @@ footer .footer4 .heroitem4 .heroitem5 input, footer .footer4 main .heroitem12 .h
   background-color: white;
 }
 
-main .item1, main .container1 .heroitem1 .item2 {
+main .item1, main .container1 .heroitem1 .item2, main .container1 .about-page .item7 .heroitem4 .item2, .about-page .item7 main .container1 .heroitem4 .item2, .about-page .item7 main .container1 .heroitem12 .item2, main .container1 .about-page .item7 .heroitem12 .item2, main .about-page .item7 .container1 .heroitem12 .item2, main .container1 .about-page .item7 .heroitem3 .item2, .about-page .item7 main .container1 .heroitem3 .item2, main .container1 .about-page .item7 .heroitem2 .item2, .about-page .item7 main .container1 .heroitem2 .item2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 150px;
 }
-main .item1 h5, main .container1 .heroitem1 .item2 h5 {
+main .item1 h5, main .container1 .heroitem1 .item2 h5, main .container1 .about-page .item7 .heroitem4 .item2 h5, .about-page .item7 main .container1 .heroitem4 .item2 h5, .about-page .item7 main .container1 .heroitem12 .item2 h5, main .container1 .about-page .item7 .heroitem12 .item2 h5, main .about-page .item7 .container1 .heroitem12 .item2 h5, main .container1 .about-page .item7 .heroitem3 .item2 h5, .about-page .item7 main .container1 .heroitem3 .item2 h5, main .container1 .about-page .item7 .heroitem2 .item2 h5, .about-page .item7 main .container1 .heroitem2 .item2 h5 {
   font-size: 16px;
   color: rgb(70, 69, 68);
 }
-main .item1 .divider2, main .container1 .heroitem1 .item2 .divider2 {
+main .item1 .divider2, main .container1 .heroitem1 .item2 .divider2, main .container1 .about-page .item7 .heroitem4 .item2 .divider2, .about-page .item7 main .container1 .heroitem4 .item2 .divider2, .about-page .item7 main .container1 .heroitem12 .item2 .divider2, main .container1 .about-page .item7 .heroitem12 .item2 .divider2, main .about-page .item7 .container1 .heroitem12 .item2 .divider2, main .container1 .about-page .item7 .heroitem3 .item2 .divider2, .about-page .item7 main .container1 .heroitem3 .item2 .divider2, main .container1 .about-page .item7 .heroitem2 .item2 .divider2, .about-page .item7 main .container1 .heroitem2 .item2 .divider2 {
   width: 90px;
   margin-top: 20px;
   height: 2px;
@@ -481,7 +481,7 @@ main .item2 .col-xl-10 {
   display: flex;
   flex-direction: row;
   gap: 40px;
-  margin-top: 100px;
+  margin-top: 30px;
   flex-wrap: wrap;
 }
 main .item2 .col-xl-10 .container1 {
@@ -527,25 +527,25 @@ main .container1 {
   display: flex;
   flex-direction: row;
 }
-main .container1 .heroitem1 {
+main .container1 .heroitem1, main .container1 .about-page .item7 .heroitem4, .about-page .item7 main .container1 .heroitem4, .about-page .item7 main .container1 .heroitem12, main .container1 .about-page .item7 .heroitem12, main .about-page .item7 .container1 .heroitem12, main .container1 .about-page .item7 .heroitem3, .about-page .item7 main .container1 .heroitem3, main .container1 .about-page .item7 .heroitem2, .about-page .item7 main .container1 .heroitem2 {
   display: flex;
   gap: 4px;
   flex-direction: column;
   justify-content: start;
 }
-main .container1 .heroitem1 .item1, main .container1 .heroitem1 .item2 {
+main .container1 .heroitem1 .item1, main .container1 .about-page .item7 .heroitem4 .item1, .about-page .item7 main .container1 .heroitem4 .item1, .about-page .item7 main .container1 .heroitem12 .item1, main .container1 .about-page .item7 .heroitem12 .item1, main .about-page .item7 .container1 .heroitem12 .item1, main .container1 .about-page .item7 .heroitem3 .item1, .about-page .item7 main .container1 .heroitem3 .item1, main .container1 .about-page .item7 .heroitem2 .item1, .about-page .item7 main .container1 .heroitem2 .item1, main .container1 .heroitem1 .item2, main .container1 .about-page .item7 .heroitem4 .item2, .about-page .item7 main .container1 .heroitem4 .item2, .about-page .item7 main .container1 .heroitem12 .item2, main .container1 .about-page .item7 .heroitem12 .item2, main .about-page .item7 .container1 .heroitem12 .item2, main .container1 .about-page .item7 .heroitem3 .item2, .about-page .item7 main .container1 .heroitem3 .item2, main .container1 .about-page .item7 .heroitem2 .item2, .about-page .item7 main .container1 .heroitem2 .item2 {
   margin-top: 0px;
   height: 350px;
   width: 500px;
 }
-main .container1 .heroitem1 .item1 img, main .container1 .heroitem1 .item2 img {
+main .container1 .heroitem1 .item1 img, main .container1 .about-page .item7 .heroitem4 .item1 img, .about-page .item7 main .container1 .heroitem4 .item1 img, .about-page .item7 main .container1 .heroitem12 .item1 img, main .container1 .about-page .item7 .heroitem12 .item1 img, main .about-page .item7 .container1 .heroitem12 .item1 img, main .container1 .about-page .item7 .heroitem3 .item1 img, .about-page .item7 main .container1 .heroitem3 .item1 img, main .container1 .about-page .item7 .heroitem2 .item1 img, .about-page .item7 main .container1 .heroitem2 .item1 img, main .container1 .heroitem1 .item2 img, main .container1 .about-page .item7 .heroitem4 .item2 img, .about-page .item7 main .container1 .heroitem4 .item2 img, .about-page .item7 main .container1 .heroitem12 .item2 img, main .container1 .about-page .item7 .heroitem12 .item2 img, main .about-page .item7 .container1 .heroitem12 .item2 img, main .container1 .about-page .item7 .heroitem3 .item2 img, .about-page .item7 main .container1 .heroitem3 .item2 img, main .container1 .about-page .item7 .heroitem2 .item2 img, .about-page .item7 main .container1 .heroitem2 .item2 img {
   position: absolute;
   box-sizing: border-box;
   overflow: hidden;
   width: 446px;
   height: 327px;
 }
-main .container1 .heroitem1 .item1 h3, main .container1 .heroitem1 .item2 h3 {
+main .container1 .heroitem1 .item1 h3, main .container1 .about-page .item7 .heroitem4 .item1 h3, .about-page .item7 main .container1 .heroitem4 .item1 h3, .about-page .item7 main .container1 .heroitem12 .item1 h3, main .container1 .about-page .item7 .heroitem12 .item1 h3, main .about-page .item7 .container1 .heroitem12 .item1 h3, main .container1 .about-page .item7 .heroitem3 .item1 h3, .about-page .item7 main .container1 .heroitem3 .item1 h3, main .container1 .about-page .item7 .heroitem2 .item1 h3, .about-page .item7 main .container1 .heroitem2 .item1 h3, main .container1 .heroitem1 .item2 h3, main .container1 .about-page .item7 .heroitem4 .item2 h3, .about-page .item7 main .container1 .heroitem4 .item2 h3, .about-page .item7 main .container1 .heroitem12 .item2 h3, main .container1 .about-page .item7 .heroitem12 .item2 h3, main .about-page .item7 .container1 .heroitem12 .item2 h3, main .container1 .about-page .item7 .heroitem3 .item2 h3, .about-page .item7 main .container1 .heroitem3 .item2 h3, main .container1 .about-page .item7 .heroitem2 .item2 h3, .about-page .item7 main .container1 .heroitem2 .item2 h3 {
   top: 150px;
   right: 90px;
   text-align: start;
@@ -553,21 +553,21 @@ main .container1 .heroitem1 .item1 h3, main .container1 .heroitem1 .item2 h3 {
   position: relative;
   font-size: 30px;
 }
-main .container1 .heroitem1 .item1 p, main .container1 .heroitem1 .item2 p {
+main .container1 .heroitem1 .item1 p, main .container1 .about-page .item7 .heroitem4 .item1 p, .about-page .item7 main .container1 .heroitem4 .item1 p, .about-page .item7 main .container1 .heroitem12 .item1 p, main .container1 .about-page .item7 .heroitem12 .item1 p, main .about-page .item7 .container1 .heroitem12 .item1 p, main .container1 .about-page .item7 .heroitem3 .item1 p, .about-page .item7 main .container1 .heroitem3 .item1 p, main .container1 .about-page .item7 .heroitem2 .item1 p, .about-page .item7 main .container1 .heroitem2 .item1 p, main .container1 .heroitem1 .item2 p, main .container1 .about-page .item7 .heroitem4 .item2 p, .about-page .item7 main .container1 .heroitem4 .item2 p, .about-page .item7 main .container1 .heroitem12 .item2 p, main .container1 .about-page .item7 .heroitem12 .item2 p, main .about-page .item7 .container1 .heroitem12 .item2 p, main .container1 .about-page .item7 .heroitem3 .item2 p, .about-page .item7 main .container1 .heroitem3 .item2 p, main .container1 .about-page .item7 .heroitem2 .item2 p, .about-page .item7 main .container1 .heroitem2 .item2 p {
   position: relative;
   color: white;
   font-size: 15px;
   top: 160px;
   right: 160px;
 }
-main .container1 .heroitem1 .item2 {
+main .container1 .heroitem1 .item2, main .container1 .about-page .item7 .heroitem4 .item2, .about-page .item7 main .container1 .heroitem4 .item2, .about-page .item7 main .container1 .heroitem12 .item2, main .container1 .about-page .item7 .heroitem12 .item2, main .about-page .item7 .container1 .heroitem12 .item2, main .container1 .about-page .item7 .heroitem3 .item2, .about-page .item7 main .container1 .heroitem3 .item2, main .container1 .about-page .item7 .heroitem2 .item2, .about-page .item7 main .container1 .heroitem2 .item2 {
   margin-top: 5px;
 }
-main .container1 .heroitem1 .item2 h3 {
+main .container1 .heroitem1 .item2 h3, main .container1 .about-page .item7 .heroitem4 .item2 h3, .about-page .item7 main .container1 .heroitem4 .item2 h3, .about-page .item7 main .container1 .heroitem12 .item2 h3, main .container1 .about-page .item7 .heroitem12 .item2 h3, main .about-page .item7 .container1 .heroitem12 .item2 h3, main .container1 .about-page .item7 .heroitem3 .item2 h3, .about-page .item7 main .container1 .heroitem3 .item2 h3, main .container1 .about-page .item7 .heroitem2 .item2 h3, .about-page .item7 main .container1 .heroitem2 .item2 h3 {
   top: 150px;
   right: 60px;
 }
-main .container1 .heroitem1 .item2 p {
+main .container1 .heroitem1 .item2 p, main .container1 .about-page .item7 .heroitem4 .item2 p, .about-page .item7 main .container1 .heroitem4 .item2 p, .about-page .item7 main .container1 .heroitem12 .item2 p, main .container1 .about-page .item7 .heroitem12 .item2 p, main .about-page .item7 .container1 .heroitem12 .item2 p, main .container1 .about-page .item7 .heroitem3 .item2 p, .about-page .item7 main .container1 .heroitem3 .item2 p, main .container1 .about-page .item7 .heroitem2 .item2 p, .about-page .item7 main .container1 .heroitem2 .item2 p {
   right: 165px;
 }
 main .container1 .heroitem2 img {
@@ -958,17 +958,17 @@ main .heroitem13 img:hover {
   padding-left: 30px;
   padding-right: 30px;
 }
-.blog-page .item1, .blog-page main .container1 .heroitem1 .item2, main .container1 .heroitem1 .blog-page .item2 {
+.blog-page .item1, .blog-page main .container1 .heroitem1 .item2, .blog-page main .container1 .about-page .item7 .heroitem4 .item2, .about-page .item7 .blog-page main .container1 .heroitem4 .item2, .blog-page .about-page .item7 main .container1 .heroitem12 .item2, .about-page .item7 .blog-page main .container1 .heroitem12 .item2, .blog-page main .container1 .about-page .item7 .heroitem12 .item2, .blog-page main .about-page .item7 .container1 .heroitem12 .item2, .blog-page main .container1 .about-page .item7 .heroitem3 .item2, .about-page .item7 .blog-page main .container1 .heroitem3 .item2, .blog-page main .container1 .about-page .item7 .heroitem2 .item2, .about-page .item7 .blog-page main .container1 .heroitem2 .item2, main .container1 .heroitem1 .blog-page .item2, main .container1 .about-page .item7 .heroitem4 .blog-page .item2, .about-page .item7 main .container1 .heroitem4 .blog-page .item2, .about-page .item7 main .container1 .heroitem12 .blog-page .item2, main .container1 .about-page .item7 .heroitem12 .blog-page .item2, main .about-page .item7 .container1 .heroitem12 .blog-page .item2, main .container1 .about-page .item7 .heroitem3 .blog-page .item2, .about-page .item7 main .container1 .heroitem3 .blog-page .item2, main .container1 .about-page .item7 .heroitem2 .blog-page .item2, .about-page .item7 main .container1 .heroitem2 .blog-page .item2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 150px;
 }
-.blog-page .item1 h5, .blog-page main .container1 .heroitem1 .item2 h5, main .container1 .heroitem1 .blog-page .item2 h5 {
+.blog-page .item1 h5, .blog-page main .container1 .heroitem1 .item2 h5, .blog-page main .container1 .about-page .item7 .heroitem4 .item2 h5, .about-page .item7 .blog-page main .container1 .heroitem4 .item2 h5, .blog-page .about-page .item7 main .container1 .heroitem12 .item2 h5, .about-page .item7 .blog-page main .container1 .heroitem12 .item2 h5, .blog-page main .container1 .about-page .item7 .heroitem12 .item2 h5, .blog-page main .about-page .item7 .container1 .heroitem12 .item2 h5, .blog-page main .container1 .about-page .item7 .heroitem3 .item2 h5, .about-page .item7 .blog-page main .container1 .heroitem3 .item2 h5, .blog-page main .container1 .about-page .item7 .heroitem2 .item2 h5, .about-page .item7 .blog-page main .container1 .heroitem2 .item2 h5, main .container1 .heroitem1 .blog-page .item2 h5, main .container1 .about-page .item7 .heroitem4 .blog-page .item2 h5, .about-page .item7 main .container1 .heroitem4 .blog-page .item2 h5, .about-page .item7 main .container1 .heroitem12 .blog-page .item2 h5, main .container1 .about-page .item7 .heroitem12 .blog-page .item2 h5, main .about-page .item7 .container1 .heroitem12 .blog-page .item2 h5, main .container1 .about-page .item7 .heroitem3 .blog-page .item2 h5, .about-page .item7 main .container1 .heroitem3 .blog-page .item2 h5, main .container1 .about-page .item7 .heroitem2 .blog-page .item2 h5, .about-page .item7 main .container1 .heroitem2 .blog-page .item2 h5 {
   font-size: 16px;
   color: rgb(70, 69, 68);
 }
-.blog-page .item1 .divider2, .blog-page main .container1 .heroitem1 .item2 .divider2, main .container1 .heroitem1 .blog-page .item2 .divider2 {
+.blog-page .item1 .divider2, .blog-page main .container1 .heroitem1 .item2 .divider2, .blog-page main .container1 .about-page .item7 .heroitem4 .item2 .divider2, .about-page .item7 .blog-page main .container1 .heroitem4 .item2 .divider2, .blog-page .about-page .item7 main .container1 .heroitem12 .item2 .divider2, .about-page .item7 .blog-page main .container1 .heroitem12 .item2 .divider2, .blog-page main .container1 .about-page .item7 .heroitem12 .item2 .divider2, .blog-page main .about-page .item7 .container1 .heroitem12 .item2 .divider2, .blog-page main .container1 .about-page .item7 .heroitem3 .item2 .divider2, .about-page .item7 .blog-page main .container1 .heroitem3 .item2 .divider2, .blog-page main .container1 .about-page .item7 .heroitem2 .item2 .divider2, .about-page .item7 .blog-page main .container1 .heroitem2 .item2 .divider2, main .container1 .heroitem1 .blog-page .item2 .divider2, main .container1 .about-page .item7 .heroitem4 .blog-page .item2 .divider2, .about-page .item7 main .container1 .heroitem4 .blog-page .item2 .divider2, .about-page .item7 main .container1 .heroitem12 .blog-page .item2 .divider2, main .container1 .about-page .item7 .heroitem12 .blog-page .item2 .divider2, main .about-page .item7 .container1 .heroitem12 .blog-page .item2 .divider2, main .container1 .about-page .item7 .heroitem3 .blog-page .item2 .divider2, .about-page .item7 main .container1 .heroitem3 .blog-page .item2 .divider2, main .container1 .about-page .item7 .heroitem2 .blog-page .item2 .divider2, .about-page .item7 main .container1 .heroitem2 .blog-page .item2 .divider2 {
   width: 90px;
   margin-top: 20px;
   height: 2px;
@@ -1023,4 +1023,248 @@ main .heroitem13 img:hover {
   background-color: black;
   color: white;
   transition-duration: 1s;
+}
+
+.about-page .item1, .about-page main .container1 .heroitem1 .item2, .about-page main .container1 .item7 .heroitem4 .item2, .about-page .item7 main .container1 .heroitem4 .item2, .about-page .item7 main .container1 .heroitem12 .item2, .about-page main .container1 .about-page .item7 .heroitem12 .item2, .about-page main .about-page .item7 .container1 .heroitem12 .item2, .about-page main .container1 .item7 .heroitem3 .item2, .about-page .item7 main .container1 .heroitem3 .item2, .about-page main .container1 .item7 .heroitem2 .item2, .about-page .item7 main .container1 .heroitem2 .item2, main .container1 .heroitem1 .about-page .item2, main .container1 .about-page .item7 .heroitem4 .about-page .item2, main .container1 .about-page .item7 .heroitem12 .about-page .item2, main .about-page .item7 .container1 .heroitem12 .about-page .item2, main .container1 .about-page .item7 .heroitem3 .about-page .item2, main .container1 .about-page .item7 .heroitem2 .about-page .item2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 190px;
+}
+.about-page .item1 h5, .about-page main .container1 .heroitem1 .item2 h5, .about-page main .container1 .item7 .heroitem4 .item2 h5, .about-page .item7 main .container1 .heroitem4 .item2 h5, .about-page .item7 main .container1 .heroitem12 .item2 h5, .about-page main .container1 .about-page .item7 .heroitem12 .item2 h5, .about-page main .about-page .item7 .container1 .heroitem12 .item2 h5, .about-page main .container1 .item7 .heroitem3 .item2 h5, .about-page .item7 main .container1 .heroitem3 .item2 h5, .about-page main .container1 .item7 .heroitem2 .item2 h5, .about-page .item7 main .container1 .heroitem2 .item2 h5, main .container1 .heroitem1 .about-page .item2 h5, main .container1 .about-page .item7 .heroitem4 .about-page .item2 h5, main .container1 .about-page .item7 .heroitem12 .about-page .item2 h5, main .about-page .item7 .container1 .heroitem12 .about-page .item2 h5, main .container1 .about-page .item7 .heroitem3 .about-page .item2 h5, main .container1 .about-page .item7 .heroitem2 .about-page .item2 h5 {
+  font-size: 16px;
+  color: rgb(70, 69, 68);
+}
+.about-page .item2 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.about-page .item2 h1 {
+  font-size: 85px;
+}
+.about-page .item2 .divider1 {
+  height: 150px;
+  width: 1px;
+  color: black;
+  margin-right: 665px;
+  margin-bottom: 100px;
+}
+.about-page .item2 p {
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+.about-page .item3, .about-page main .item2 .col-xl-2 .item6, main .item2 .col-xl-2 .about-page .item6, .about-page main .item2 .col-xl-2 .item7, main .item2 .col-xl-2 .about-page .item7 {
+  margin-top: 5px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.about-page .item3 img, .about-page main .item2 .col-xl-2 .item6 img, main .item2 .col-xl-2 .about-page .item6 img, .about-page main .item2 .col-xl-2 .item7 img, main .item2 .col-xl-2 .about-page .item7 img {
+  width: 680px;
+  height: 700px;
+}
+.about-page .item3 .item4, .about-page main .item2 .col-xl-2 .item6 .item4, main .item2 .col-xl-2 .about-page .item6 .item4, .about-page main .item2 .col-xl-2 .item7 .item4, main .item2 .col-xl-2 .about-page .item7 .item4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 180px;
+  margin-top: 200px;
+  text-align: start;
+}
+.about-page .item3 .item4 .divider2, .about-page main .item2 .col-xl-2 .item6 .item4 .divider2, main .item2 .col-xl-2 .about-page .item6 .item4 .divider2, .about-page main .item2 .col-xl-2 .item7 .item4 .divider2, main .item2 .col-xl-2 .about-page .item7 .item4 .divider2 {
+  width: 170px;
+  margin-top: 30px;
+  margin-left: 1px;
+  height: 3px;
+  background-color: black;
+  border: 1px solid rgb(0, 0, 0);
+}
+.about-page .item3 .item4 h2, .about-page main .item2 .col-xl-2 .item6 .item4 h2, main .item2 .col-xl-2 .about-page .item6 .item4 h2, .about-page main .item2 .col-xl-2 .item7 .item4 h2, main .item2 .col-xl-2 .about-page .item7 .item4 h2 {
+  font-size: 40px;
+}
+.about-page .item3 .item4 p, .about-page main .item2 .col-xl-2 .item6 .item4 p, main .item2 .col-xl-2 .about-page .item6 .item4 p, .about-page main .item2 .col-xl-2 .item7 .item4 p, main .item2 .col-xl-2 .about-page .item7 .item4 p {
+  color: rgb(76, 76, 76);
+  font-size: 20px;
+}
+.about-page .item5 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 185px;
+  padding-right: 35px;
+}
+.about-page .item5 .item6, .about-page .item5 main .item2 .col-xl-2 .item7, main .item2 .col-xl-2 .about-page .item5 .item7 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 50px;
+  padding-right: 120px;
+  margin-top: 200px;
+  text-align: start;
+}
+.about-page .item5 .item6 .divider2, .about-page .item5 main .item2 .col-xl-2 .item7 .divider2, main .item2 .col-xl-2 .about-page .item5 .item7 .divider2 {
+  width: 170px;
+  margin-top: 30px;
+  margin-left: 1px;
+  height: 3px;
+  background-color: black;
+  border: 1px solid rgb(0, 0, 0);
+}
+.about-page .item5 .item6 h2, .about-page .item5 main .item2 .col-xl-2 .item7 h2, main .item2 .col-xl-2 .about-page .item5 .item7 h2 {
+  font-size: 35px;
+}
+.about-page .item5 .item6 p, .about-page .item5 main .item2 .col-xl-2 .item7 p, main .item2 .col-xl-2 .about-page .item5 .item7 p {
+  color: rgb(143, 143, 143);
+  font-size: 19px;
+  font-family: inherit;
+}
+.about-page .item5 .img1 {
+  width: 440px;
+  height: 600px;
+  margin-right: 30px;
+}
+.about-page .item5 .img2 {
+  width: 320px;
+  height: 600px;
+}
+.about-page .divider3 {
+  width: 170px;
+  margin-top: 160px;
+  margin-left: 650px;
+  height: 3px;
+  background-color: black;
+  border: 1px solid rgb(0, 0, 0);
+}
+.about-page .item7 {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.about-page .item7 .heroitem1, .about-page .item7 .heroitem4, .about-page .item7 main .heroitem12, main .about-page .item7 .heroitem12, .about-page .item7 .heroitem3, .about-page .item7 .heroitem2 {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+.about-page .item7 .heroitem1 h1, .about-page .item7 .heroitem4 h1, .about-page .item7 main .heroitem12 h1, main .about-page .item7 .heroitem12 h1, .about-page .item7 .heroitem3 h1, .about-page .item7 .heroitem2 h1 {
+  font-size: 60px;
+}
+.about-page .item7 .heroitem1 p, .about-page .item7 .heroitem4 p, .about-page .item7 main .heroitem12 p, main .about-page .item7 .heroitem12 p, .about-page .item7 .heroitem3 p, .about-page .item7 .heroitem2 p {
+  font-size: 20px;
+}
+.about-page .item8 {
+  margin-top: 150px;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: row;
+}
+.about-page .item8 img {
+  width: 640px;
+  height: 600px;
+}
+.about-page .item8 .item9 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 100px;
+  margin-top: 200px;
+  text-align: start;
+}
+.about-page .item8 .item9 .divider2 {
+  width: 170px;
+  margin-top: 30px;
+  margin-left: 1px;
+  height: 3px;
+  background-color: black;
+  border: 1px solid rgb(0, 0, 0);
+}
+.about-page .item8 .item9 h2 {
+  font-size: 40px;
+}
+.about-page .item8 .item9 p {
+  color: rgb(76, 76, 76);
+  font-size: 18px;
+}
+.about-page .item8 .item9 button {
+  background-color: white;
+  width: 150px;
+  height: 50px;
+}
+.about-page .item8 .item9 button:hover {
+  background-color: black;
+  transition: 1s;
+  color: white;
+}
+.about-page .item10 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: center;
+}
+.about-page .item10 .heroitem5 {
+  display: flex;
+  flex-direction: column;
+}
+.about-page .item10 .heroitem5 .item11 {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.about-page .item10 .heroitem5 .item11 h5 {
+  font-size: 25px;
+  text-align: start;
+}
+.about-page .item10 .heroitem5 .item11 p {
+  font-size: 12px;
+}
+.about-page .item10 .heroitem5 .img5 {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background-color: black;
+  transition: transform 1s ease;
+}
+.about-page .item10 .heroitem5 .img5 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 1s ease;
+}
+.about-page .item10 .heroitem5 .img5 ul {
+  position: absolute;
+  bottom: 150px;
+  left: 70px;
+  flex-direction: row;
+  gap: 6px;
+  display: none;
+}
+.about-page .item10 .heroitem5 .img5 ul li {
+  font-size: 40px;
+}
+.about-page .item10 .heroitem5 .img5:hover img {
+  transform: scale(0.9);
+}
+.about-page .item10 .heroitem5 .img5:hover ul {
+  display: flex;
+}
+.about-page .item10 .heroitem5 .img5:hover {
+  transform: scale(0.9);
+  background-color: gray;
+}
+
+footer {
+  margin-top: 70px;
 }/*# sourceMappingURL=style.css.map */
