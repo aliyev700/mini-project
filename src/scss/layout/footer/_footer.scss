@@ -84,7 +84,7 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 29px;
-        font-size: 30px;
+        font-size: 27px;
     }
 
     .navbar1 li {
@@ -107,7 +107,8 @@ footer {
       }
   
       .navbar1 li:hover::before {
-        width: 90px;
+        width: 130px;
+        margin-left: 25px
       }
 
   }

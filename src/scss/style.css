@@ -294,7 +294,7 @@ footer .footer2 .navbar1, footer .footer3 .navbar1 {
   display: flex;
   flex-direction: column;
   gap: 29px;
-  font-size: 30px;
+  font-size: 27px;
 }
 footer .footer2 .navbar1 li, footer .footer3 .navbar1 li {
   position: relative;
@@ -312,7 +312,8 @@ footer .footer2 .navbar1 li::before, footer .footer3 .navbar1 li::before {
   transition: width 0.2s ease;
 }
 footer .footer2 .navbar1 li:hover::before, footer .footer3 .navbar1 li:hover::before {
-  width: 90px;
+  width: 130px;
+  margin-left: 25px;
 }
 footer .footer3 {
   padding-left: 90px;
