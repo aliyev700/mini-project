@@ -224,6 +224,7 @@ header .divider1 {
 }
 
 footer {
+  margin-top: 20px;
   background-color: black;
   display: flex;
   flex-direction: row;
@@ -518,6 +519,154 @@ main .item2 .col-xl-10 .container1 .item10 {
 main .item2 .col-xl-10 .container1 .item10 h4 {
   font-family: "Outfit", sans-serif;
   font-size: larger;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1500px;
+}
+footer .footer1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1500px;
+  padding-top: 120px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 70px;
+}
+footer .footer1 .hero1 {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer1 .hero1 .ri-cellphone-fill {
+  color: white;
+  font-size: 40px;
+}
+footer .footer1 .hero1 h5 {
+  color: white;
+  size: 30px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+footer .footer1 .heroitem2 {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer1 .heroitem2 .ri-facebook-box-line, footer .footer1 .heroitem2 .ri-youtube-line, footer .footer1 .heroitem2 .ri-twitter-x-line {
+  color: white;
+  font-size: 50px;
+}
+footer .footer2, footer .footer3 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1500px;
+  padding-top: 120px;
+  padding-right: 10px;
+  padding-left: 170px;
+  padding-bottom: 70px;
+}
+footer .footer2 .heroitem3, footer .footer3 .heroitem3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer2 .heroitem3 .divider3, footer .footer3 .heroitem3 .divider3 {
+  width: 210px;
+  margin-top: 30px;
+  height: 2px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(181, 175, 175);
+  margin: 0 auto;
+}
+footer .footer2 .heroitem3 h4, footer .footer3 .heroitem3 h4 {
+  color: white;
+  font-size: 40px;
+}
+footer .footer2 .navbar1, footer .footer3 .navbar1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  font-size: 27px;
+}
+footer .footer2 .navbar1 li, footer .footer3 .navbar1 li {
+  position: relative;
+  padding-top: 10px;
+}
+footer .footer2 .navbar1 li::before, footer .footer3 .navbar1 li::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 20%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background-color: #fffbfb;
+  transition: width 0.2s ease;
+}
+footer .footer2 .navbar1 li:hover::before, footer .footer3 .navbar1 li:hover::before {
+  width: 130px;
+  margin-left: 25px;
+}
+footer .footer3 {
+  padding-left: 90px;
+}
+footer .footer4 {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  max-width: 1500px;
+  padding-top: 92px;
+  padding-right: 10px;
+  padding-left: 150px;
+  padding-bottom: 70px;
+}
+footer .footer4 .heroitem3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer4 .heroitem3 .divider3 {
+  width: 210px;
+  margin-top: 30px;
+  margin-right: 120px;
+  height: 2px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(181, 175, 175);
+}
+footer .footer4 .heroitem3 h4 {
+  color: white;
+  font-size: 40px;
+}
+footer .footer4 .heroitem4 h5, footer .footer4 main .heroitem12 h5, main footer .footer4 .heroitem12 h5 {
+  color: gray;
+}
+footer .footer4 .heroitem4 .heroitem5, footer .footer4 main .heroitem12 .heroitem5, main footer .footer4 .heroitem12 .heroitem5 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid white;
+  width: 320px;
+  height: 50px;
+}
+footer .footer4 .heroitem4 .heroitem5 button, footer .footer4 main .heroitem12 .heroitem5 button, main footer .footer4 .heroitem12 .heroitem5 button {
+  border: none;
+  background-color: gray;
+}
+footer .footer4 .heroitem4 .heroitem5 button:hover, footer .footer4 main .heroitem12 .heroitem5 button:hover, main footer .footer4 .heroitem12 .heroitem5 button:hover {
+  background-color: gold;
+}
+footer .footer4 .heroitem4 .heroitem5 input, footer .footer4 main .heroitem12 .heroitem5 input, main footer .footer4 .heroitem12 .heroitem5 input {
+  border: none;
+  width: 290px;
+  background-color: white;
 }
 
 main {
@@ -954,6 +1103,154 @@ main .heroitem13 img:hover {
   transform: rotateY(180deg);
 }
 
+footer {
+  margin-top: 20px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1500px;
+}
+footer .footer1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1500px;
+  padding-top: 120px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 70px;
+}
+footer .footer1 .hero1 {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer1 .hero1 .ri-cellphone-fill {
+  color: white;
+  font-size: 40px;
+}
+footer .footer1 .hero1 h5 {
+  color: white;
+  size: 30px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+footer .footer1 .heroitem2 {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer1 .heroitem2 .ri-facebook-box-line, footer .footer1 .heroitem2 .ri-youtube-line, footer .footer1 .heroitem2 .ri-twitter-x-line {
+  color: white;
+  font-size: 50px;
+}
+footer .footer2, footer .footer3 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1500px;
+  padding-top: 120px;
+  padding-right: 10px;
+  padding-left: 170px;
+  padding-bottom: 70px;
+}
+footer .footer2 .heroitem3, footer .footer3 .heroitem3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer2 .heroitem3 .divider3, footer .footer3 .heroitem3 .divider3 {
+  width: 210px;
+  margin-top: 30px;
+  height: 2px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(181, 175, 175);
+  margin: 0 auto;
+}
+footer .footer2 .heroitem3 h4, footer .footer3 .heroitem3 h4 {
+  color: white;
+  font-size: 40px;
+}
+footer .footer2 .navbar1, footer .footer3 .navbar1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  font-size: 27px;
+}
+footer .footer2 .navbar1 li, footer .footer3 .navbar1 li {
+  position: relative;
+  padding-top: 10px;
+}
+footer .footer2 .navbar1 li::before, footer .footer3 .navbar1 li::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 20%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background-color: #fffbfb;
+  transition: width 0.2s ease;
+}
+footer .footer2 .navbar1 li:hover::before, footer .footer3 .navbar1 li:hover::before {
+  width: 130px;
+  margin-left: 25px;
+}
+footer .footer3 {
+  padding-left: 90px;
+}
+footer .footer4 {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  max-width: 1500px;
+  padding-top: 92px;
+  padding-right: 10px;
+  padding-left: 150px;
+  padding-bottom: 70px;
+}
+footer .footer4 .heroitem3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer4 .heroitem3 .divider3 {
+  width: 210px;
+  margin-top: 30px;
+  margin-right: 120px;
+  height: 2px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(181, 175, 175);
+}
+footer .footer4 .heroitem3 h4 {
+  color: white;
+  font-size: 40px;
+}
+footer .footer4 .heroitem4 h5, footer .footer4 main .heroitem12 h5, main footer .footer4 .heroitem12 h5 {
+  color: gray;
+}
+footer .footer4 .heroitem4 .heroitem5, footer .footer4 main .heroitem12 .heroitem5, main footer .footer4 .heroitem12 .heroitem5 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid white;
+  width: 320px;
+  height: 50px;
+}
+footer .footer4 .heroitem4 .heroitem5 button, footer .footer4 main .heroitem12 .heroitem5 button, main footer .footer4 .heroitem12 .heroitem5 button {
+  border: none;
+  background-color: gray;
+}
+footer .footer4 .heroitem4 .heroitem5 button:hover, footer .footer4 main .heroitem12 .heroitem5 button:hover, main footer .footer4 .heroitem12 .heroitem5 button:hover {
+  background-color: gold;
+}
+footer .footer4 .heroitem4 .heroitem5 input, footer .footer4 main .heroitem12 .heroitem5 input, main footer .footer4 .heroitem12 .heroitem5 input {
+  border: none;
+  width: 290px;
+  background-color: white;
+}
+
 .blog-page {
   max-width: 1500px;
   margin: 0 auto;
@@ -1025,6 +1322,154 @@ main .heroitem13 img:hover {
   background-color: black;
   color: white;
   transition-duration: 1s;
+}
+
+footer {
+  margin-top: 90px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1500px;
+}
+footer .footer1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1500px;
+  padding-top: 120px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 70px;
+}
+footer .footer1 .hero1 {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer1 .hero1 .ri-cellphone-fill {
+  color: white;
+  font-size: 40px;
+}
+footer .footer1 .hero1 h5 {
+  color: white;
+  size: 30px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+footer .footer1 .heroitem2 {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer1 .heroitem2 .ri-facebook-box-line, footer .footer1 .heroitem2 .ri-youtube-line, footer .footer1 .heroitem2 .ri-twitter-x-line {
+  color: white;
+  font-size: 50px;
+}
+footer .footer2, footer .footer3 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1500px;
+  padding-top: 120px;
+  padding-right: 10px;
+  padding-left: 170px;
+  padding-bottom: 70px;
+}
+footer .footer2 .heroitem3, footer .footer3 .heroitem3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer2 .heroitem3 .divider3, footer .footer3 .heroitem3 .divider3 {
+  width: 210px;
+  margin-top: 30px;
+  height: 2px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(181, 175, 175);
+  margin: 0 auto;
+}
+footer .footer2 .heroitem3 h4, footer .footer3 .heroitem3 h4 {
+  color: white;
+  font-size: 40px;
+}
+footer .footer2 .navbar1, footer .footer3 .navbar1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  font-size: 27px;
+}
+footer .footer2 .navbar1 li, footer .footer3 .navbar1 li {
+  position: relative;
+  padding-top: 10px;
+}
+footer .footer2 .navbar1 li::before, footer .footer3 .navbar1 li::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 20%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background-color: #fffbfb;
+  transition: width 0.2s ease;
+}
+footer .footer2 .navbar1 li:hover::before, footer .footer3 .navbar1 li:hover::before {
+  width: 130px;
+  margin-left: 25px;
+}
+footer .footer3 {
+  padding-left: 90px;
+}
+footer .footer4 {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  max-width: 1500px;
+  padding-top: 92px;
+  padding-right: 10px;
+  padding-left: 150px;
+  padding-bottom: 70px;
+}
+footer .footer4 .heroitem3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer4 .heroitem3 .divider3 {
+  width: 210px;
+  margin-top: 30px;
+  margin-right: 120px;
+  height: 2px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(181, 175, 175);
+}
+footer .footer4 .heroitem3 h4 {
+  color: white;
+  font-size: 40px;
+}
+footer .footer4 .heroitem4 h5, footer .footer4 main .heroitem12 h5, main footer .footer4 .heroitem12 h5 {
+  color: gray;
+}
+footer .footer4 .heroitem4 .heroitem5, footer .footer4 main .heroitem12 .heroitem5, main footer .footer4 .heroitem12 .heroitem5 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid white;
+  width: 320px;
+  height: 50px;
+}
+footer .footer4 .heroitem4 .heroitem5 button, footer .footer4 main .heroitem12 .heroitem5 button, main footer .footer4 .heroitem12 .heroitem5 button {
+  border: none;
+  background-color: gray;
+}
+footer .footer4 .heroitem4 .heroitem5 button:hover, footer .footer4 main .heroitem12 .heroitem5 button:hover, main footer .footer4 .heroitem12 .heroitem5 button:hover {
+  background-color: gold;
+}
+footer .footer4 .heroitem4 .heroitem5 input, footer .footer4 main .heroitem12 .heroitem5 input, main footer .footer4 .heroitem12 .heroitem5 input {
+  border: none;
+  width: 290px;
+  background-color: white;
 }
 
 .about-page .item1, .about-page main .container1 .heroitem1 .item2, .about-page main .container1 .item7 .heroitem4 .item2, .about-page .item7 main .container1 .heroitem4 .item2, .about-page .item7 main .container1 .heroitem12 .item2, .about-page main .container1 .about-page .item7 .heroitem12 .item2, .about-page main .about-page .item7 .container1 .heroitem12 .item2, .about-page main .container1 .item7 .heroitem3 .item2, .about-page .item7 main .container1 .heroitem3 .item2, .about-page main .container1 .item7 .heroitem2 .item2, .about-page .item7 main .container1 .heroitem2 .item2, main .container1 .heroitem1 .about-page .item2, main .container1 .about-page .item7 .heroitem4 .about-page .item2, main .container1 .about-page .item7 .heroitem12 .about-page .item2, main .about-page .item7 .container1 .heroitem12 .about-page .item2, main .container1 .about-page .item7 .heroitem3 .about-page .item2, main .container1 .about-page .item7 .heroitem2 .about-page .item2 {
@@ -1211,6 +1656,7 @@ main .heroitem13 img:hover {
   margin-top: 40px;
   display: flex;
   flex-direction: row;
+  padding-bottom: 140px;
   gap: 60px;
   justify-content: center;
 }
@@ -1268,7 +1714,150 @@ main .heroitem13 img:hover {
 }
 
 footer {
-  margin-top: 70px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1500px;
+}
+footer .footer1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1500px;
+  padding-top: 120px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 70px;
+}
+footer .footer1 .hero1 {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer1 .hero1 .ri-cellphone-fill {
+  color: white;
+  font-size: 40px;
+}
+footer .footer1 .hero1 h5 {
+  color: white;
+  size: 30px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+footer .footer1 .heroitem2 {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer1 .heroitem2 .ri-facebook-box-line, footer .footer1 .heroitem2 .ri-youtube-line, footer .footer1 .heroitem2 .ri-twitter-x-line {
+  color: white;
+  font-size: 50px;
+}
+footer .footer2, footer .footer3 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1500px;
+  padding-top: 120px;
+  padding-right: 10px;
+  padding-left: 170px;
+  padding-bottom: 70px;
+}
+footer .footer2 .heroitem3, footer .footer3 .heroitem3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer2 .heroitem3 .divider3, footer .footer3 .heroitem3 .divider3 {
+  width: 210px;
+  margin-top: 30px;
+  height: 2px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(181, 175, 175);
+  margin: 0 auto;
+}
+footer .footer2 .heroitem3 h4, footer .footer3 .heroitem3 h4 {
+  color: white;
+  font-size: 40px;
+}
+footer .footer2 .navbar1, footer .footer3 .navbar1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  font-size: 27px;
+}
+footer .footer2 .navbar1 li, footer .footer3 .navbar1 li {
+  position: relative;
+  padding-top: 10px;
+}
+footer .footer2 .navbar1 li::before, footer .footer3 .navbar1 li::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 20%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background-color: #fffbfb;
+  transition: width 0.2s ease;
+}
+footer .footer2 .navbar1 li:hover::before, footer .footer3 .navbar1 li:hover::before {
+  width: 130px;
+  margin-left: 25px;
+}
+footer .footer3 {
+  padding-left: 90px;
+}
+footer .footer4 {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  max-width: 1500px;
+  padding-top: 92px;
+  padding-right: 10px;
+  padding-left: 150px;
+  padding-bottom: 70px;
+}
+footer .footer4 .heroitem3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer4 .heroitem3 .divider3 {
+  width: 210px;
+  margin-top: 30px;
+  margin-right: 120px;
+  height: 2px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(181, 175, 175);
+}
+footer .footer4 .heroitem3 h4 {
+  color: white;
+  font-size: 40px;
+}
+footer .footer4 .heroitem4 h5, footer .footer4 main .heroitem12 h5, main footer .footer4 .heroitem12 h5 {
+  color: gray;
+}
+footer .footer4 .heroitem4 .heroitem5, footer .footer4 main .heroitem12 .heroitem5, main footer .footer4 .heroitem12 .heroitem5 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid white;
+  width: 320px;
+  height: 50px;
+}
+footer .footer4 .heroitem4 .heroitem5 button, footer .footer4 main .heroitem12 .heroitem5 button, main footer .footer4 .heroitem12 .heroitem5 button {
+  border: none;
+  background-color: gray;
+}
+footer .footer4 .heroitem4 .heroitem5 button:hover, footer .footer4 main .heroitem12 .heroitem5 button:hover, main footer .footer4 .heroitem12 .heroitem5 button:hover {
+  background-color: gold;
+}
+footer .footer4 .heroitem4 .heroitem5 input, footer .footer4 main .heroitem12 .heroitem5 input, main footer .footer4 .heroitem12 .heroitem5 input {
+  border: none;
+  width: 290px;
+  background-color: white;
 }
 
 .contact-page .item1, .contact-page main .container1 .heroitem1 .item2, main .container1 .heroitem1 .contact-page .item2, .contact-page main .container1 .about-page .item7 .heroitem2 .item2, main .container1 .about-page .item7 .heroitem2 .contact-page .item2, .contact-page .about-page .item7 main .container1 .heroitem2 .item2, .about-page .item7 main .container1 .heroitem2 .contact-page .item2, .contact-page main .container1 .about-page .item7 .heroitem3 .item2, main .container1 .about-page .item7 .heroitem3 .contact-page .item2, .contact-page .about-page .item7 main .container1 .heroitem3 .item2, .about-page .item7 main .container1 .heroitem3 .contact-page .item2, .contact-page main .container1 .about-page .item7 .heroitem4 .item2, main .container1 .about-page .item7 .heroitem4 .contact-page .item2, .contact-page .about-page .item7 main .container1 .heroitem4 .item2, .about-page .item7 main .container1 .heroitem4 .contact-page .item2, .contact-page .about-page .item7 main .container1 .heroitem12 .item2, .about-page .item7 main .container1 .heroitem12 .contact-page .item2, .contact-page main .container1 .about-page .item7 .heroitem12 .item2, main .container1 .about-page .item7 .heroitem12 .contact-page .item2, .contact-page main .about-page .item7 .container1 .heroitem12 .item2, main .about-page .item7 .container1 .heroitem12 .contact-page .item2 {
@@ -1407,19 +1996,166 @@ footer {
   width: 1180px;
   height: 160px;
 }
-.contact-page .button1 button {
+.contact-page .button5 {
+  padding-bottom: 50px;
+}
+.contact-page .button5 button {
   width: 150px;
   height: 70px;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 150px;
   background-color: white;
   transition: 1s;
 }
-.contact-page .button1 button:hover {
+.contact-page .button5 button:hover {
   color: white;
   background-color: black;
 }
 
 footer {
-  margin-left: 5px;
+  margin-top: 20px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1500px;
+}
+footer .footer1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1500px;
+  padding-top: 120px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 70px;
+}
+footer .footer1 .hero1 {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer1 .hero1 .ri-cellphone-fill {
+  color: white;
+  font-size: 40px;
+}
+footer .footer1 .hero1 h5 {
+  color: white;
+  size: 30px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+footer .footer1 .heroitem2 {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer1 .heroitem2 .ri-facebook-box-line, footer .footer1 .heroitem2 .ri-youtube-line, footer .footer1 .heroitem2 .ri-twitter-x-line {
+  color: white;
+  font-size: 50px;
+}
+footer .footer2, footer .footer3 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1500px;
+  padding-top: 120px;
+  padding-right: 10px;
+  padding-left: 170px;
+  padding-bottom: 70px;
+}
+footer .footer2 .heroitem3, footer .footer3 .heroitem3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer2 .heroitem3 .divider3, footer .footer3 .heroitem3 .divider3 {
+  width: 210px;
+  margin-top: 30px;
+  height: 2px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(181, 175, 175);
+  margin: 0 auto;
+}
+footer .footer2 .heroitem3 h4, footer .footer3 .heroitem3 h4 {
+  color: white;
+  font-size: 40px;
+}
+footer .footer2 .navbar1, footer .footer3 .navbar1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  font-size: 27px;
+}
+footer .footer2 .navbar1 li, footer .footer3 .navbar1 li {
+  position: relative;
+  padding-top: 10px;
+}
+footer .footer2 .navbar1 li::before, footer .footer3 .navbar1 li::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 20%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background-color: #fffbfb;
+  transition: width 0.2s ease;
+}
+footer .footer2 .navbar1 li:hover::before, footer .footer3 .navbar1 li:hover::before {
+  width: 130px;
+  margin-left: 25px;
+}
+footer .footer3 {
+  padding-left: 90px;
+}
+footer .footer4 {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  max-width: 1500px;
+  padding-top: 92px;
+  padding-right: 10px;
+  padding-left: 150px;
+  padding-bottom: 70px;
+}
+footer .footer4 .heroitem3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer4 .heroitem3 .divider3 {
+  width: 210px;
+  margin-top: 30px;
+  margin-right: 120px;
+  height: 2px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(181, 175, 175);
+}
+footer .footer4 .heroitem3 h4 {
+  color: white;
+  font-size: 40px;
+}
+footer .footer4 .heroitem4 h5, footer .footer4 main .heroitem12 h5, main footer .footer4 .heroitem12 h5 {
+  color: gray;
+}
+footer .footer4 .heroitem4 .heroitem5, footer .footer4 main .heroitem12 .heroitem5, main footer .footer4 .heroitem12 .heroitem5 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid white;
+  width: 320px;
+  height: 50px;
+}
+footer .footer4 .heroitem4 .heroitem5 button, footer .footer4 main .heroitem12 .heroitem5 button, main footer .footer4 .heroitem12 .heroitem5 button {
+  border: none;
+  background-color: gray;
+}
+footer .footer4 .heroitem4 .heroitem5 button:hover, footer .footer4 main .heroitem12 .heroitem5 button:hover, main footer .footer4 .heroitem12 .heroitem5 button:hover {
+  background-color: gold;
+}
+footer .footer4 .heroitem4 .heroitem5 input, footer .footer4 main .heroitem12 .heroitem5 input, main footer .footer4 .heroitem12 .heroitem5 input {
+  border: none;
+  width: 290px;
+  background-color: white;
 }/*# sourceMappingURL=style.css.map */
