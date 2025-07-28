@@ -480,13 +480,10 @@ main .item2 .col-xl-10 {
   padding-left: 70px;
   display: flex;
   flex-direction: row;
-
   gap: 40px;
   margin-top: 30px;
-
   gap: 30px;
   margin-top: 10px;
-
   flex-wrap: wrap;
 }
 main .item2 .col-xl-10 .container1 {
@@ -1031,19 +1028,12 @@ main .heroitem13 img:hover {
 }
 
 .about-page .item1, .about-page main .container1 .heroitem1 .item2, .about-page main .container1 .item7 .heroitem4 .item2, .about-page .item7 main .container1 .heroitem4 .item2, .about-page .item7 main .container1 .heroitem12 .item2, .about-page main .container1 .about-page .item7 .heroitem12 .item2, .about-page main .about-page .item7 .container1 .heroitem12 .item2, .about-page main .container1 .item7 .heroitem3 .item2, .about-page .item7 main .container1 .heroitem3 .item2, .about-page main .container1 .item7 .heroitem2 .item2, .about-page .item7 main .container1 .heroitem2 .item2, main .container1 .heroitem1 .about-page .item2, main .container1 .about-page .item7 .heroitem4 .about-page .item2, main .container1 .about-page .item7 .heroitem12 .about-page .item2, main .about-page .item7 .container1 .heroitem12 .about-page .item2, main .container1 .about-page .item7 .heroitem3 .about-page .item2, main .container1 .about-page .item7 .heroitem2 .about-page .item2 {
-
-.about-page .item1, .about-page main .container1 .heroitem1 .item2, main .container1 .heroitem1 .about-page .item2 {
-
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 190px;
 }
-
 .about-page .item1 h5, .about-page main .container1 .heroitem1 .item2 h5, .about-page main .container1 .item7 .heroitem4 .item2 h5, .about-page .item7 main .container1 .heroitem4 .item2 h5, .about-page .item7 main .container1 .heroitem12 .item2 h5, .about-page main .container1 .about-page .item7 .heroitem12 .item2 h5, .about-page main .about-page .item7 .container1 .heroitem12 .item2 h5, .about-page main .container1 .item7 .heroitem3 .item2 h5, .about-page .item7 main .container1 .heroitem3 .item2 h5, .about-page main .container1 .item7 .heroitem2 .item2 h5, .about-page .item7 main .container1 .heroitem2 .item2 h5, main .container1 .heroitem1 .about-page .item2 h5, main .container1 .about-page .item7 .heroitem4 .about-page .item2 h5, main .container1 .about-page .item7 .heroitem12 .about-page .item2 h5, main .about-page .item7 .container1 .heroitem12 .about-page .item2 h5, main .container1 .about-page .item7 .heroitem3 .about-page .item2 h5, main .container1 .about-page .item7 .heroitem2 .about-page .item2 h5 {
-
-.about-page .item1 h5, .about-page main .container1 .heroitem1 .item2 h5, main .container1 .heroitem1 .about-page .item2 h5 {
-
   font-size: 16px;
   color: rgb(70, 69, 68);
 }
@@ -1148,7 +1138,6 @@ main .heroitem13 img:hover {
   height: 3px;
   background-color: black;
   border: 1px solid rgb(0, 0, 0);
-
 }
 .about-page .item7 {
   display: flex;
@@ -1280,6 +1269,157 @@ main .heroitem13 img:hover {
 
 footer {
   margin-top: 70px;
+}
 
+.contact-page .item1, .contact-page main .container1 .heroitem1 .item2, main .container1 .heroitem1 .contact-page .item2, .contact-page main .container1 .about-page .item7 .heroitem2 .item2, main .container1 .about-page .item7 .heroitem2 .contact-page .item2, .contact-page .about-page .item7 main .container1 .heroitem2 .item2, .about-page .item7 main .container1 .heroitem2 .contact-page .item2, .contact-page main .container1 .about-page .item7 .heroitem3 .item2, main .container1 .about-page .item7 .heroitem3 .contact-page .item2, .contact-page .about-page .item7 main .container1 .heroitem3 .item2, .about-page .item7 main .container1 .heroitem3 .contact-page .item2, .contact-page main .container1 .about-page .item7 .heroitem4 .item2, main .container1 .about-page .item7 .heroitem4 .contact-page .item2, .contact-page .about-page .item7 main .container1 .heroitem4 .item2, .about-page .item7 main .container1 .heroitem4 .contact-page .item2, .contact-page .about-page .item7 main .container1 .heroitem12 .item2, .about-page .item7 main .container1 .heroitem12 .contact-page .item2, .contact-page main .container1 .about-page .item7 .heroitem12 .item2, main .container1 .about-page .item7 .heroitem12 .contact-page .item2, .contact-page main .about-page .item7 .container1 .heroitem12 .item2, main .about-page .item7 .container1 .heroitem12 .contact-page .item2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 190px;
+}
+.contact-page .item1 h5, .contact-page main .container1 .heroitem1 .item2 h5, main .container1 .heroitem1 .contact-page .item2 h5, .contact-page main .container1 .about-page .item7 .heroitem2 .item2 h5, main .container1 .about-page .item7 .heroitem2 .contact-page .item2 h5, .contact-page .about-page .item7 main .container1 .heroitem2 .item2 h5, .about-page .item7 main .container1 .heroitem2 .contact-page .item2 h5, .contact-page main .container1 .about-page .item7 .heroitem3 .item2 h5, main .container1 .about-page .item7 .heroitem3 .contact-page .item2 h5, .contact-page .about-page .item7 main .container1 .heroitem3 .item2 h5, .about-page .item7 main .container1 .heroitem3 .contact-page .item2 h5, .contact-page main .container1 .about-page .item7 .heroitem4 .item2 h5, main .container1 .about-page .item7 .heroitem4 .contact-page .item2 h5, .contact-page .about-page .item7 main .container1 .heroitem4 .item2 h5, .about-page .item7 main .container1 .heroitem4 .contact-page .item2 h5, .contact-page .about-page .item7 main .container1 .heroitem12 .item2 h5, .about-page .item7 main .container1 .heroitem12 .contact-page .item2 h5, .contact-page main .container1 .about-page .item7 .heroitem12 .item2 h5, main .container1 .about-page .item7 .heroitem12 .contact-page .item2 h5, .contact-page main .about-page .item7 .container1 .heroitem12 .item2 h5, main .about-page .item7 .container1 .heroitem12 .contact-page .item2 h5 {
+  font-size: 16px;
+  color: rgb(70, 69, 68);
+}
+.contact-page .item2 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.contact-page .item2 h1 {
+  font-size: 85px;
+}
+.contact-page .item2 .divider1 {
+  height: 150px;
+  width: 1px;
+  color: black;
+  margin-right: 665px;
+  margin-bottom: 100px;
+}
+.contact-page .item2 p {
+  font-size: 17px;
+  margin-bottom: 100px;
+}
+.contact-page .item3, .contact-page main .item2 .col-xl-2 .item6, main .item2 .col-xl-2 .contact-page .item6, .contact-page main .item2 .col-xl-2 .item7, main .item2 .col-xl-2 .contact-page .item7 {
+  margin-top: 250px;
+  position: relative;
+}
+.contact-page .item3 .item4, .contact-page main .item2 .col-xl-2 .item6 .item4, main .item2 .col-xl-2 .contact-page .item6 .item4, .contact-page main .item2 .col-xl-2 .item7 .item4, main .item2 .col-xl-2 .contact-page .item7 .item4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  position: absolute;
+  left: 105px;
+}
+.contact-page .item3 .item4 .item5, .contact-page main .item2 .col-xl-2 .item6 .item4 .item5, main .item2 .col-xl-2 .contact-page .item6 .item4 .item5, .contact-page main .item2 .col-xl-2 .item7 .item4 .item5, main .item2 .col-xl-2 .contact-page .item7 .item4 .item5 {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 310px;
+  background-color: black;
+  color: white;
+  bottom: 680px;
+}
+.contact-page .item3 .item4 .item5 i, .contact-page main .item2 .col-xl-2 .item6 .item4 .item5 i, main .item2 .col-xl-2 .contact-page .item6 .item4 .item5 i, .contact-page main .item2 .col-xl-2 .item7 .item4 .item5 i, main .item2 .col-xl-2 .contact-page .item7 .item4 .item5 i {
+  font-size: 45px;
+  margin-top: 50px;
+}
+.contact-page .item3 .item4 .item5 h3, .contact-page main .item2 .col-xl-2 .item6 .item4 .item5 h3, main .item2 .col-xl-2 .contact-page .item6 .item4 .item5 h3, .contact-page main .item2 .col-xl-2 .item7 .item4 .item5 h3, main .item2 .col-xl-2 .contact-page .item7 .item4 .item5 h3 {
+  color: white;
+  font-family: "Outfit", sans-serif;
+}
+.contact-page .item3 .item4 .item5 p, .contact-page main .item2 .col-xl-2 .item6 .item4 .item5 p, main .item2 .col-xl-2 .contact-page .item6 .item4 .item5 p, .contact-page main .item2 .col-xl-2 .item7 .item4 .item5 p, main .item2 .col-xl-2 .contact-page .item7 .item4 .item5 p {
+  margin-top: 60px;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+}
+.contact-page .item6, .contact-page main .item2 .col-xl-2 .item7, main .item2 .col-xl-2 .contact-page .item7 {
+  margin-top: 120px;
+  margin-left: 150px;
+}
+.contact-page .item6 .divider3, .contact-page main .item2 .col-xl-2 .item7 .divider3, main .item2 .col-xl-2 .contact-page .item7 .divider3 {
+  margin-bottom: 35px;
+  width: 160px;
+  height: 2px;
+  color: black;
+  background-color: black;
+}
+.contact-page .item6 h2, .contact-page main .item2 .col-xl-2 .item7 h2, main .item2 .col-xl-2 .contact-page .item7 h2 {
+  font-size: 40px;
+  padding-bottom: 34px;
+}
+.contact-page .item6 p, .contact-page main .item2 .col-xl-2 .item7 p, main .item2 .col-xl-2 .contact-page .item7 p {
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  color: #555;
+}
+.contact-page .heroitem1, .contact-page .about-page .item7 .heroitem2, .about-page .item7 .contact-page .heroitem2, .contact-page .about-page .item7 .heroitem3, .about-page .item7 .contact-page .heroitem3, .contact-page .about-page .item7 .heroitem4, .about-page .item7 .contact-page .heroitem4, .contact-page .about-page .item7 main .heroitem12, .about-page .item7 main .contact-page .heroitem12, .contact-page main .about-page .item7 .heroitem12, main .about-page .item7 .contact-page .heroitem12 {
+  display: flex;
+  flex-direction: row;
+}
+.contact-page .heroitem1 .item7, .contact-page .about-page .item7 .heroitem2 .item7, .about-page .item7 .contact-page .heroitem2 .item7, .contact-page .about-page .item7 .heroitem3 .item7, .about-page .item7 .contact-page .heroitem3 .item7, .contact-page .about-page .item7 .heroitem4 .item7, .about-page .item7 .contact-page .heroitem4 .item7, .contact-page .about-page .item7 main .heroitem12 .item7, .about-page .item7 main .contact-page .heroitem12 .item7, .contact-page main .about-page .item7 .heroitem12 .item7, main .about-page .item7 .contact-page .heroitem12 .item7 {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 150px;
+}
+.contact-page .heroitem1 .item7 p, .contact-page .about-page .item7 .heroitem2 .item7 p, .about-page .item7 .contact-page .heroitem2 .item7 p, .contact-page .about-page .item7 .heroitem3 .item7 p, .about-page .item7 .contact-page .heroitem3 .item7 p, .contact-page .about-page .item7 .heroitem4 .item7 p, .about-page .item7 .contact-page .heroitem4 .item7 p, .contact-page .about-page .item7 main .heroitem12 .item7 p, .about-page .item7 main .contact-page .heroitem12 .item7 p, .contact-page main .about-page .item7 .heroitem12 .item7 p, main .about-page .item7 .contact-page .heroitem12 .item7 p {
+  font-size: 15px;
+  color: #6E6E6E;
+}
+.contact-page .heroitem1 .item7 input, .contact-page .about-page .item7 .heroitem2 .item7 input, .about-page .item7 .contact-page .heroitem2 .item7 input, .contact-page .about-page .item7 .heroitem3 .item7 input, .about-page .item7 .contact-page .heroitem3 .item7 input, .contact-page .about-page .item7 .heroitem4 .item7 input, .about-page .item7 .contact-page .heroitem4 .item7 input, .contact-page .about-page .item7 main .heroitem12 .item7 input, .about-page .item7 main .contact-page .heroitem12 .item7 input, .contact-page main .about-page .item7 .heroitem12 .item7 input, main .about-page .item7 .contact-page .heroitem12 .item7 input {
+  width: 570px;
+  height: 50px;
+}
+.contact-page .heroitem1 .item8, .contact-page .about-page .item7 .heroitem2 .item8, .about-page .item7 .contact-page .heroitem2 .item8, .contact-page .about-page .item7 .heroitem3 .item8, .about-page .item7 .contact-page .heroitem3 .item8, .contact-page .about-page .item7 .heroitem4 .item8, .about-page .item7 .contact-page .heroitem4 .item8, .contact-page .about-page .item7 main .heroitem12 .item8, .about-page .item7 main .contact-page .heroitem12 .item8, .contact-page main .about-page .item7 .heroitem12 .item8, main .about-page .item7 .contact-page .heroitem12 .item8 {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 40px;
+}
+.contact-page .heroitem1 .item8 p, .contact-page .about-page .item7 .heroitem2 .item8 p, .about-page .item7 .contact-page .heroitem2 .item8 p, .contact-page .about-page .item7 .heroitem3 .item8 p, .about-page .item7 .contact-page .heroitem3 .item8 p, .contact-page .about-page .item7 .heroitem4 .item8 p, .about-page .item7 .contact-page .heroitem4 .item8 p, .contact-page .about-page .item7 main .heroitem12 .item8 p, .about-page .item7 main .contact-page .heroitem12 .item8 p, .contact-page main .about-page .item7 .heroitem12 .item8 p, main .about-page .item7 .contact-page .heroitem12 .item8 p {
+  font-size: 15px;
+  color: #6E6E6E;
+}
+.contact-page .heroitem1 .item8 input, .contact-page .about-page .item7 .heroitem2 .item8 input, .about-page .item7 .contact-page .heroitem2 .item8 input, .contact-page .about-page .item7 .heroitem3 .item8 input, .about-page .item7 .contact-page .heroitem3 .item8 input, .contact-page .about-page .item7 .heroitem4 .item8 input, .about-page .item7 .contact-page .heroitem4 .item8 input, .contact-page .about-page .item7 main .heroitem12 .item8 input, .about-page .item7 main .contact-page .heroitem12 .item8 input, .contact-page main .about-page .item7 .heroitem12 .item8 input, main .about-page .item7 .contact-page .heroitem12 .item8 input {
+  width: 570px;
+  height: 50px;
+}
+.contact-page .item9 {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 150px;
+}
+.contact-page .item9 p {
+  font-size: 15px;
+  color: #6E6E6E;
+}
+.contact-page .item9 input {
+  width: 1180px;
+  height: 160px;
+}
+.contact-page .button1 button {
+  width: 150px;
+  height: 70px;
+  margin-top: 40px;
+  margin-left: 150px;
+  background-color: white;
+  transition: 1s;
+}
+.contact-page .button1 button:hover {
+  color: white;
+  background-color: black;
+}
 
+footer {
+  margin-left: 5px;
 }/*# sourceMappingURL=style.css.map */
