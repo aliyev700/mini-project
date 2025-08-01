@@ -202,6 +202,166 @@ header nav .logos {
   font-size: 30px;
   margin-right: 70px;
 }
+header nav .logos li {
+  position: relative;
+}
+header nav .logos li input[type=checkbox] {
+  display: none;
+}
+header nav .logos li label {
+  cursor: pointer;
+  font-size: 24px;
+  display: inline-block;
+  color: #000;
+}
+header nav .logos li .popup {
+  border: 1px solid black;
+  display: none;
+  position: absolute;
+  width: 1400px;
+  height: 400px;
+  top: 45px;
+  right: -145px;
+  background: #ffffff;
+  padding: 10px;
+}
+header nav .logos li .popup h1 {
+  margin-top: 30px;
+  color: black;
+  font-size: 36px;
+  text-align: center;
+}
+header nav .logos li .popup .search1 {
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  margin-top: 120px;
+  margin-left: 250px;
+}
+header nav .logos li .popup .search1 select {
+  width: 190px;
+  height: 50px;
+  font-size: 25px;
+  margin-left: 50px;
+}
+header nav .logos li .popup .search1 input {
+  align-items: center;
+  width: 500px;
+  height: 50px;
+}
+header nav .logos li .popup .search1 button {
+  height: 50px;
+  background-color: #000;
+  color: white;
+}
+header nav .logos li .popup .search1 button:hover {
+  background-color: red;
+  color: white;
+  transition: 1s;
+}
+header nav .logos li .popup h4 {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 510px;
+}
+header nav .logos li .popup1 {
+  border: 1px solid black;
+  display: none;
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  top: 75px;
+  left: -300px;
+  background: #ffffff;
+  padding: 10px;
+}
+header nav .logos li .popup1 .sign2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 130px;
+}
+header nav .logos li .popup1 .sign1 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+header nav .logos li .popup1 .sign1 p {
+  margin-left: 20px;
+  font-size: 17px;
+}
+header nav .logos li .popup1 .sign1 input {
+  margin-left: 20px;
+  width: 330px;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header nav .logos li .popup1 button {
+  margin-top: 30px;
+  height: 40px;
+  width: 300px;
+  margin-left: 20px;
+  width: 330px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  border: 1px solid gray;
+}
+header nav .logos li .popup1 button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.4s;
+}
+header nav .logos li .popup1 p {
+  margin-top: 25px;
+  font-size: 16px;
+  margin-left: 120px;
+}
+header nav .logos li .popup2 {
+  border: 1px solid black;
+  display: none;
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  top: 75px;
+  left: -340px;
+  background: #ffffff;
+  padding: 10px;
+}
+header nav .logos li .popup2 .shop1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 125px;
+}
+header nav .logos li .popup2 h3 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+header nav .logos li .popup2 button {
+  margin-top: 30px;
+  margin-left: 80px;
+  height: 65px;
+  background-color: black;
+  color: white;
+}
+header nav .logos li .popup2 button:hover {
+  background-color: white;
+  color: #000;
+  transition: 1s;
+}
+header nav .logos li input[type=checkbox]:checked + label + .popup {
+  display: block;
+}
+header nav .logos li input[type=checkbox]:checked + label + .popup1 {
+  display: block;
+}
+header nav .logos li input[type=checkbox]:checked + label + .popup2 {
+  display: block;
+}
 @media (max-width: 768px) {
   header nav .logos {
     flex-direction: column;
