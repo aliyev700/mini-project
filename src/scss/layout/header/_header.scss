@@ -1,11 +1,16 @@
 
 header{
+
+
+ 
+ 
+
+
+
+  
   
   nav {
-      @media (max-width: 768px) {
-        flex-direction: column;
-        padding: 10px;
-      }
+  
   
       display: flex;
     
@@ -329,6 +334,10 @@ header{
         }
       }
   }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
   
   .divider1 {
       width: 1450px;
@@ -339,8 +348,7 @@ header{
       margin: 0 auto;
   
       @media (max-width: 768px) {
-        width: 410px;
-        color: black;
+        display: none;
       }
   }
 
